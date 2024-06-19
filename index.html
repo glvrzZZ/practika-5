@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form id="registrationForm">
+            <label for="firstName">Имя:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            
+            <label for="lastName">Фамилллия:</label>
+            <input type="text" id="lastName" name="lastName" required>
+            
+            <label for="email">Почта:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Парроль:</label>
+            <input type="password" id="password" name="password" required>
+            <small id="passwordHelp">Пароль должен быть длиной не менее 8 символов и содержать цифру.</small>
+            
+            <label for="confirmPassword">Подтвердите пароль:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            
+            <label for="dob">Дата рождения:</label>
+            <input type="date" id="dob" name="dob" required>
+            
+            <button type="submit" id="submitButton" disabled>Зарегистрироваться</button>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
 
